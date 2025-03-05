@@ -1,3 +1,5 @@
+
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -107,3 +109,4 @@ if __name__ == "__main__":
     y, u, v, fmt = read_yuv(yuv_filename, width, height, format=yuv_format, bit_depth=bit_depth)
     rgb_image = yuv_to_rgb(y, u, v, format=fmt)
     display_image(rgb_image, title=f"YUV{yuv_format} to RGB")
+```
